@@ -7924,5 +7924,8 @@ del {
         display: flex;
         align-items: center;
     }
+     .slider-height {
+        height: 100vh !important;
+    }
 
 }
