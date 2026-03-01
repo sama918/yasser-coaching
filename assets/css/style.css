@@ -7914,18 +7914,11 @@ del {
 }
 
 
-/* HERO MOBILE FIX */
 @media (max-width: 768px) {
 
-    .slider-height {
-        height: auto !important;
-        min-height: 85vh;
-        padding: 120px 0;
-    }
-
     .single-slider {
-        background-size: cover !important;
-        background-position: center center !important;
+        height: 100vh !important;
+        min-height: 500px;
     }
 
 }
