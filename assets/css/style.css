@@ -7897,19 +7897,28 @@ del {
 
 /*# sourceMappingURL=style.css.map */
 
-
-
-/* Correction affichage transformations sur mobile */
+/* HERO MOBILE FIX COMPLET */
 @media (max-width: 768px) {
 
-    .gallery-img {
-        height: auto !important;
-        min-height: 350px;
-        background-size: contain !important;
-        background-position: center top !important;
-        background-repeat: no-repeat;
-        background-color: #000;
+    .slider-area {
+        height: 90vh !important;
+        min-height: 600px;
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: 80% center !important;
+    }
+
+    .slider-active,
+    .single-slider,
+    .slider-height {
+        height: 100% !important;
+        display: flex;
+        align-items: center;
     }
 
 }
+
+
+
+
 
