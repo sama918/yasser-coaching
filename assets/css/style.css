@@ -7913,15 +7913,23 @@ del {
 
 }
 
-/* mobile image hero ajustement */
+/* HERO MOBILE FIX */
 @media (max-width: 768px) {
 
-    .slider-area,
-    .slider-active,
-    .single-slider,
+    .single-slider {
+        height: auto !important;
+        min-height: 90vh;
+        background-size: cover;
+        background-position: 75% center; /* garde le corps visible */
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        padding: 80px 0;
+    }
+
     .slider-height {
-        height: 100vh !important;
-        min-height: 100vh !important;
+        height: auto !important;
+        min-height: 90vh;
     }
 
 }
