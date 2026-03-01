@@ -7916,16 +7916,14 @@ del {
 /* mobile image hero ajustement */
 @media (max-width: 768px) {
 
-    .single-slider {
+    .slider-area {
         height: 100vh !important;
-        min-height: 600px;
-        background-size: cover;
-        background-position: right center !important;
-        display: flex;
-        align-items: center;
     }
-     .slider-height {
-        height: 100vh !important;
+
+    .slider-active,
+    .single-slider,
+    .slider-height {
+        height: 100% !important;
     }
 
 }
