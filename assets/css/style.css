@@ -7917,7 +7917,8 @@ del {
 @media (max-width: 768px) {
 
     .single-slider {
-        height: 100svh;
+        height: 100vh !important;
+        min-height: 600px;
         background-size: cover;
         background-position: right center !important;
         display: flex;
