@@ -7913,14 +7913,3 @@ del {
 
 }
 
-/* HERO MOBILE FIX */
-@media (max-width: 768px) {
-
-    .single-slider {
-        height: 90vh !important;
-        background-size: cover !important;
-        background-position: 80% center !important;
-        background-repeat: no-repeat !important;
-    }
-
-}
