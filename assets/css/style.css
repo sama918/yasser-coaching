@@ -7899,3 +7899,32 @@ del {
 
 
 
+/* Correction affichage transformations sur mobile */
+@media (max-width: 768px) {
+
+    .gallery-img {
+        height: auto !important;
+        min-height: 350px;
+        background-size: contain !important;
+        background-position: center top !important;
+        background-repeat: no-repeat;
+        background-color: #000;
+    }
+
+}
+
+
+
+/* HERO MOBILE FIX */
+@media (max-width: 768px) {
+
+    .single-slider {
+        background-size: cover !important;
+        background-position: right center !important; 
+    }
+
+    .slider-height {
+        min-height: 600px !important;
+    }
+
+}
