@@ -7913,12 +7913,15 @@ del {
 
 }
 
-
+/* mobile image hero ajustement */
 @media (max-width: 768px) {
 
     .single-slider {
-        height: 100vh !important;
-        min-height: 500px;
+        height: 100svh;
+        background-size: cover;
+        background-position: right center !important;
+        display: flex;
+        align-items: center;
     }
 
 }
