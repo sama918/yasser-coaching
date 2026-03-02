@@ -51,3 +51,20 @@
     }
 }
 
+/* Bouton principal responsive */
+.hero-btn {
+    padding: 12px 30px;   /* hauteur et largeur internes */
+    font-size: 16px;
+    display: inline-block; /* permet de ne pas prendre toute la largeur */
+    max-width: 100%;      /* s'adapte à l'écran */
+    white-space: nowrap;  /* empêche le texte de se couper */
+    text-align: center;
+}
+
+/* Ajustement spécifique pour mobile */
+@media (max-width: 768px) {
+    .hero-btn {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+}
