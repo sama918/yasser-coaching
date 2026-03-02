@@ -53,8 +53,8 @@
 
 /* Bouton principal responsive */
 .hero-btn {
-    padding: 12px 30px;   /* hauteur et largeur internes */
-    font-size: 16px;
+    padding: 15px 35px;   /* hauteur et largeur internes */
+    font-size: 20px;
     display: inline-block; /* permet de ne pas prendre toute la largeur */
     max-width: 100%;      /* s'adapte à l'écran */
     white-space: nowrap;  /* empêche le texte de se couper */
