@@ -7897,26 +7897,6 @@ del {
 
 /*# sourceMappingURL=style.css.map */
 
-/* HERO MOBILE FIX COMPLET */
-@media (max-width: 768px) {
-
-    .slider-area {
-        height: 90vh !important;
-        min-height: 600px;
-        background-attachment: scroll !important;
-        background-size: cover !important;
-        background-position: 80% center !important;
-    }
-
-    .slider-active,
-    .single-slider,
-    .slider-height {
-        height: 100% !important;
-        display: flex;
-        align-items: center;
-    }
-
-}
 
 
 

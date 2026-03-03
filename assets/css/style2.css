@@ -1,3 +1,22 @@
+/* FIX HERO MOBILE SANS CASSER LE TEMPLATE */
+
+@media (max-width: 768px) {
+    .slider-height {
+        height: auto !important;
+        min-height: 90vh !important;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    .hero__caption h1 {
+        font-size: 40px !important;
+        line-height: 1.2 !important;
+    }
+
+    .hero__caption p {
+        font-size: 16px !important;
+    }
+}
 .slider-area2 .hero-cap h1 {
     color: #fff !important;      /* couleur blanche */
     font-size: 70px !important;  /* taille du texte */
@@ -66,5 +85,24 @@
     .hero-btn {
         font-size: 20px;
         padding: 15px 30px;
+    }
+}
+/* HERO TITLE CONTROL */
+
+.hero__caption h1 {
+    font-size: 72px !important;
+    line-height: 1.05 !important;
+    font-weight: 800 !important;
+}
+
+@media (max-width: 1200px) {
+    .hero__caption h1 {
+        font-size: 58px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__caption h1 {
+        font-size: 40px !important;
     }
 }
