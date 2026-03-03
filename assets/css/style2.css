@@ -1,12 +1,17 @@
 /* FIX HERO MOBILE SANS CASSER LE TEMPLATE */ @media (max-width: 768px) { .slider-height { height: auto !important; min-height: 90vh !important; padding-top: 120px; padding-bottom: 60px; } .hero__caption h1 { font-size: 40px !important; line-height: 1.2 !important; } .hero__caption p { font-size: 16px !important; } } .slider-area2 .hero-cap h1 { color: #fff !important; /* couleur blanche */ font-size: 70px !important; /* taille du texte */ font-weight: 700 !important; /* gras */ text-transform: uppercase !important; line-height: 1.2 !important; text-align: center !important; /* CENTRAGE */ } @media (max-width: 991px) { .slider-area2 .hero-cap h1 { font-size: 50px !important; text-align: center !important; } } @media (max-width: 575px) { .slider-area2 .hero-cap h1 { font-size: 35px !important; text-align: center !important; } } .auto-height-img img { width: 100%; /* Remplir le conteneur horizontalement */ height: auto; /* Hauteur automatique */ object-fit: contain; /* Rien n’est coupé */ } .auto-height-img { height: auto !important; /* Conteneur adaptatif */ } .custom-hero { font-size: 50px; /* taille sur grand écran */ line-height: 1.2; text-align: center; font-weight: 700; color: #fff; } @media (max-width: 991px) { .custom-hero { font-size: 35px; /* taille tablette */ } } @media (max-width: 575px) { .custom-hero { font-size: 25px; /* taille mobile */ } } /* Bouton principal responsive */ .hero-btn { padding: 15px 35px; /* hauteur et largeur internes */ font-size: 20px; display: inline-block; /* permet de ne pas prendre toute la largeur */ max-width: 100%; /* s'adapte à l'écran */ white-space: nowrap; /* empêche le texte de se couper */ text-align: center; } /* Ajustement spécifique pour mobile */ @media (max-width: 768px) { .hero-btn { font-size: 20px; padding: 15px 30px; } } /* HERO TITLE CONTROL */ .hero__caption h1 { font-size: 72px !important; line-height: 1.05 !important; font-weight: 800 !important; } @media (max-width: 1200px) { .hero__caption h1 { font-size: 58px !important; } } @media (max-width: 768px) { .hero__caption h1 { font-size: 40px !important; } }
 @media (max-width: 768px) {
-    .slider-area {
-        background-size: cover !important;
-        background-position: right  !important;
-        background-repeat: no-repeat !important;
-    }
 
+    .slider-area,
+    .slider-active,
+    .single-slider,
     .slider-height {
         min-height: 90vh !important;
+        height: 90vh !important;
+    }
+
+    .slider-area {
+        background-size: cover !important;
+        background-position: 70% center !important;
+        background-repeat: no-repeat !important;
     }
 }
