@@ -2,7 +2,6 @@
 
 @media (max-width: 768px) {
     .slider-height {
-        height: auto !important;
         min-height: 90vh !important;
         padding-top: 120px;
         padding-bottom: 60px;
@@ -106,10 +105,12 @@
         font-size: 40px !important;
     }
 }
+
 @media (max-width: 768px) {
 
+    .slider-area,
     .single-slider {
-        min-height: 90vh !important;
+        min-height: 100vh !important;
         background-size: cover !important;
         background-position: 85% center !important;
         background-repeat: no-repeat !important;
