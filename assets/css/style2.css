@@ -106,13 +106,3 @@
     }
 }
 
-@media (max-width: 768px) {
-
-    .single-slider {
-        min-height: 100svh !important; /* spécial iPhone moderne */
-        background-size: cover !important;
-        background-position: 85% center !important;
-        background-repeat: no-repeat !important;
-    }
-
-}
