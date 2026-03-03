@@ -109,7 +109,8 @@
 @media (max-width: 768px) {
 
     .slider-area {
-        background-position: 85% center !important;
+        background-size: cover !important;
+        background-position: 70% center !important;
         background-repeat: no-repeat !important;
     }
 
