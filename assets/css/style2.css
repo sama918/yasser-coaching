@@ -108,11 +108,20 @@
 
 @media (max-width: 768px) {
 
-    .single-slider {
+    .slider-height {
         min-height: 100vh !important;
+    }
+
+    .slider-area,
+    .single-slider {
         background-size: cover !important;
-        background-position: 75% center !important;
+        background-position: 75% center !important; 
         background-repeat: no-repeat !important;
     }
 
+}
+@media (max-width: 768px) {
+  .slider-area {
+    background-attachment: scroll !important;
+  }
 }
