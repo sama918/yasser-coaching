@@ -107,6 +107,11 @@
 }
 
 @media (max-width: 768px) {
+  .slider-area {
+    background-attachment: scroll !important;
+  }
+}
+@media (max-width: 768px) {
 
     .slider-height {
         min-height: 100vh !important;
@@ -119,9 +124,4 @@
         background-repeat: no-repeat !important;
     }
 
-}
-@media (max-width: 768px) {
-  .slider-area {
-    background-attachment: scroll !important;
-  }
 }
