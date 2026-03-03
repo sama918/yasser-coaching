@@ -108,9 +108,13 @@
 }
 @media (max-width: 768px) {
 
+    .single-slider {
+        min-height: 75vh !important;
+    }
+
     .slider-area {
         background-size: cover !important;
-        background-position: right !important;
+        background-position: 85% center !important;
         background-repeat: no-repeat !important;
     }
 
