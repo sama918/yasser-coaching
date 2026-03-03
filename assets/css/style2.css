@@ -110,9 +110,8 @@
 
     .slider-area,
     .single-slider {
-        min-height: 100vh !important;
         background-size: cover !important;
-        background-position: 85% center !important;
+        background-position: right center !important; /* au lieu de 85% */
         background-repeat: no-repeat !important;
     }
 
