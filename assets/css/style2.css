@@ -1,20 +1,14 @@
 /* FIX HERO MOBILE SANS CASSER LE TEMPLATE */
 
 @media (max-width: 768px) {
+    .slider-area {
+        background-size: cover !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+    }
+
     .slider-height {
-        height: auto !important;
         min-height: 90vh !important;
-        padding-top: 120px;
-        padding-bottom: 60px;
-    }
-
-    .hero__caption h1 {
-        font-size: 40px !important;
-        line-height: 1.2 !important;
-    }
-
-    .hero__caption p {
-        font-size: 16px !important;
     }
 }
 .slider-area2 .hero-cap h1 {
@@ -104,16 +98,5 @@
 @media (max-width: 768px) {
     .hero__caption h1 {
         font-size: 40px !important;
-    }
-}
-@media (max-width: 768px) {
-    .slider-area {
-        background-size: cover !important;
-        background-position: center center !important;
-        background-repeat: no-repeat !important;
-    }
-
-    .slider-height {
-        min-height: 90vh !important;
     }
 }
