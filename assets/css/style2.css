@@ -108,14 +108,10 @@
 
 @media (max-width: 768px) {
 
-    .slider-height {
-        min-height: 100svh !important;
-    }
-
-    .slider-area,
     .single-slider {
+        min-height: 100vh !important;
         background-size: cover !important;
-        background-position: center right !important;
+        background-position: 75% center !important;
         background-repeat: no-repeat !important;
     }
 
