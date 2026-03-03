@@ -117,13 +117,3 @@
     }
 
 }
-@media (max-width: 768px) {
-
-    .slider-area,
-    .slider-height,
-    .single-slider {
-        height: 100svh !important;
-        min-height: 100svh !important;
-    }
-
-}
