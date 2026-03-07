@@ -106,11 +106,7 @@
     }
 }
 
-@media (max-width: 768px) {
-  .slider-area {
-    background-attachment: scroll !important;
-  }
-}
+
 @media (max-width: 768px) {
 
     .slider-height {
